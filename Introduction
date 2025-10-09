@@ -1,0 +1,28 @@
+2. Introduction
+2.1. Project Overview
+
+The Propeller Display is a type of POV display where an array of LEDs mounted on a spinning propeller blade generates the illusion of a stable, readable image or text in mid-air. This is achieved by synchronizing the LED switching with the motor's rotation, leveraging the human eye’s inability to distinguish fast-moving light changes.
+
+In our project, we utilize an Arduino Nano for its compact size and ease of programming. The system uses a 1000 RPM DC motor to rotate a lightweight PCB/wooden arm embedded with LEDs. Real-time code controls the LED blinking based on angular position estimation.
+
+2.2. Applications
+
+POV-based displays have a wide range of applications:
+
+Consumer electronics: Clocks, advertising displays
+
+Art installations: Interactive light-based art
+
+Educational tools: Teaching embedded systems and electronics
+
+Industrial indicators: Rotational displays for compact feedback systems
+
+2.3. Objective
+
+The primary objective of this project is to:
+
+Build a functioning propeller display using low-cost components.
+
+Understand the integration of hardware (motor, LEDs, resistors) and software (Arduino code).
+
+Demonstrate control and synchronization of hardware using embedded C/C++.
