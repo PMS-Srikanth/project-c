@@ -57,7 +57,9 @@ The project works on the concept of **Persistence of Vision (POV)** — where th
 
 ## 👨‍💻 Author
 **P. Srikanth**
+
 **Yash Narayan**
+
 **Eswar Balaji**  
 Project Developer & Programmer  
 
