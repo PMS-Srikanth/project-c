@@ -1,9 +1,14 @@
 2. Introduction
+
 2.1. Project Overview
 
-The Propeller Display is a type of POV display where an array of LEDs mounted on a spinning propeller blade generates the illusion of a stable, readable image or text in mid-air. This is achieved by synchronizing the LED switching with the motor's rotation, leveraging the human eye’s inability to distinguish fast-moving light changes.
+Propeller Display is a rotating object which is used to diplay images,patterns and etc , using LED(Light Emitting Diode) connected to a dot board consisting of several Resistors placed according to the need, connected evrything using soldering.We have used Arduino nano for the project as it is much compact size and ease of programming The system uses a 1000 RPM DC motor to rotate a lightweight dot board with LEDs and resistors . Real-time code controls the LED blinking based on angular position estimation.It is a type of POV display where an array of LEDs mounted on a spinning dot board generates the illusion of a stable, readable image or text in mid-air. This is achieved by synchronizing the LED switching with the motor's rotation, leveraging the human eye’s inability to distinguish fast-moving light changes.
 
-In our project, we utilize an Arduino Nano for its compact size and ease of programming. The system uses a 1000 RPM DC motor to rotate a lightweight PCB/wooden arm embedded with LEDs. Real-time code controls the LED blinking based on angular position estimation.
+The main mechanism behind virtual display is the phenomenon of Persistence of vision (POV). The phenomenon is related to vision capability of human eye by which an after image is thought to persist for approximately 1/25th of a second. So, if someone is observing the images at a rate of 25 images per second, then they appear to be continuous. Existing systems do employ POV principle, but for displaying each pixel, individual LED is used 
+
+Using a Propeller Display is a optimal solution compared to using a large number of  LED's for virtual display boards in Railway Stations and Bus Stands and etc, as in these areas the display uses static LED's so we need a huge amount of LED's to be able to display a proper text or image which is visible to the crowd, so to avoid the extra cost on using more and more LED's can opt for a Propeller Display which do not require a huge amount of LED's just requires a powerfull motor which has the capacity to spin the boards so that the text which is appeared is readable.
+
+The primary objective of this project is to build a functioning propeller display using low-cost components. Understand the integration of hardware (motor, LEDs, resistors,Arduino nano) and software (Arduino code).Demonstrate control and synchronization of hardware using embedded C.
 
 2.2. Applications
 
@@ -17,12 +22,29 @@ Educational tools: Teaching embedded systems and electronics
 
 Industrial indicators: Rotational displays for compact feedback systems
 
-2.3. Objective
 
-The primary objective of this project is to:
+2.3. Contributions
 
-Build a functioning propeller display using low-cost components.
+In building this project we had several aspects to focus on bringing the project into a real world application which can solve problems.So as a group of three all three have a idea of how the project works but keeping the consideration of time bound we have parted our work equally so that we can build it much faster.
 
-Understand the integration of hardware (motor, LEDs, resistors) and software (Arduino code).
+1)Yash Narayan:-
+	- Was responsible on large scale of amount on the hardware connecting the Arduino,LED's,Resistors,motor and etc.
 
-Demonstrate control and synchronization of hardware using embedded C/C++.
+2)K Eswar Balaji:-
+	- Acquired all the required components and had a part in devloping the code.
+
+3)P M S Srikanth:-
+	- Had a part in devloping the code to requires specification and also had some part in the hardware side.
+
+
+2.4. Structure of the report 
+
+1)Literature:Provides a detail study of existing works on the project where are they being used and there global picture.Have a detail Comparision of the existing works with your work(find differenced and simmilarites.) 
+
+2)Methdology:Will have the entire work flow of the project explaining the components used and their specifiacations and a block diagram(with label).Detailed explanation of the project steps to install and configure arduino and etc.
+
+3)Results/Discussions:Real life image and video of the working model and discussions about the drawback of using it.
+
+4)Conclusion:A summary of what we have achieved as a group.
+
+5)refernces
